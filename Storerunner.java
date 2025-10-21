@@ -5,13 +5,15 @@ public class StoreRunner {
 
     Scanner input = new Scanner(System.in);
 
-    // Create Grocery object
+    // Create Grocery object 
+    // give them values 
     Grocery groceryItem = new Grocery(3.99, "Bread", true);
     System.out.println("Grocery");
     System.out.println(groceryItem);
     System.out.println();
 
-    // Create Dairy object
+    // Create Dairy object 
+    // give them values 
     Dairy milk = new Dairy("Cow");
     milk.setName("Milk");
     milk.setPrice(4.25);
@@ -21,6 +23,7 @@ public class StoreRunner {
     System.out.println();
 
     // Create Fruits object
+    // give them values 
     Fruits apple = new Fruits(true);
     apple.setName("Apple");
     apple.setPrice(1.50);

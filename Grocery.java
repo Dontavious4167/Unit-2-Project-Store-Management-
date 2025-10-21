@@ -19,6 +19,7 @@ public class Grocery {
     this.isInStock = isInStock;
   }
 // accessor methods 
+// makes it where it returns all the values 
   public double getPrice() {
     return price;
   }
@@ -29,6 +30,7 @@ public class Grocery {
     return isInStock;
   }
  // mutator methods 
+  // sets all the instances variables 
   public void setPrice(double price) {
     this.price = price;
   }
@@ -39,6 +41,7 @@ public class Grocery {
     this.isInStock = isInStock;
   }
 // to string 
+  // returns all the values 
   public String toString() {
     return "name: " + name + "\nprice: " + price + "\nisInStock: " + isInStock;
     
